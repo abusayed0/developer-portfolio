@@ -7,14 +7,17 @@ body {
 h1 {
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 
 .name {
     color: orange;
 }
 
-section {
+.flexable-container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .half-width {
@@ -44,4 +47,18 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.two-experience{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.experiences-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
